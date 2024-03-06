@@ -15,6 +15,9 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 // -----------------------
 // checkout
 // -----------------------
+app.get("/", async (req, res) => {
+  res.send("Welcome");
+});
 
 app.post("/checkout", async (req, res) => {
   const booking = req.body;
