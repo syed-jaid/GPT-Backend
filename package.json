@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "tsc"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +17,8 @@
     "express": "^4.18.3",
     "mailerlite": "^0.4.0",
     "mailerlite-api-v2-node": "^1.2.0",
+    "mailgen": "^2.0.28",
+    "nodemailer": "^6.9.11",
     "stripe": "^14.19.0",
     "vercel": "^33.5.3"
   },
